@@ -1,0 +1,10 @@
+t = int(input())
+for _ in range(t):
+    N = int(input())
+    K = int(input())
+    count = 0  
+    for _ in range(N):
+        element = int(input())
+        if element > K:
+            count += 1
+    print(count)
